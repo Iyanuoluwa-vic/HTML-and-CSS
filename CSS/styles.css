@@ -49,6 +49,7 @@ p {
   color: aquamarine;
 } */
 
+/*  class selector
 .green {
   font-size: large;
   color: green;
@@ -62,4 +63,9 @@ p {
 .red {
   font-size: large;
   color: red;
+} */
+
+div {
+  font-size: large;
+  color: yellow;
 }
