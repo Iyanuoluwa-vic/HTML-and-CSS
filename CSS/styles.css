@@ -1,0 +1,65 @@
+/* selctor
+
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+h2 {
+  color: chocolate;
+  font-size: 50px;
+}
+
+p {
+  color: bisque;
+  font-size: 60px;
+} 
+
+*/
+
+/* group selector
+
+h1,
+h2,
+p {
+  color: blue;
+} 
+
+*/
+
+/* id selctor 
+
+
+#title {
+  color: green;
+  background: black;
+} 
+
+
+*/
+
+/*  class selector
+
+
+
+/*  class selector
+
+.hi {
+  font-size: large;
+  color: aquamarine;
+} */
+
+.green {
+  font-size: large;
+  color: green;
+}
+
+.blue {
+  font-size: large;
+  color: blue;
+}
+
+.red {
+  font-size: large;
+  color: red;
+}
