@@ -1,0 +1,19 @@
+/* 
+   rem -relative depends on root 
+
+   1rem=base value (16px)*number(1)
+   
+*/
+
+/* this is the root it depends on if there is a value provided but if not not uses the  default rem */
+html {
+  font-size: 10px;
+}
+
+.relative {
+  font: size 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
