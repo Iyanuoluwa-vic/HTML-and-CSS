@@ -1,0 +1,12 @@
+h1 {
+  text-align: left;
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2 {
+  text-align: center;
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  text-transform: uppercase;
+}

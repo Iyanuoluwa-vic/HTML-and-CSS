@@ -2,6 +2,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* font family - type of font used
+   font wight -thickness of ofnt
+
+   font style-how it been styled
+ */
+
 h1 {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
