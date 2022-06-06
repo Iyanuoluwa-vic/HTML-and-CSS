@@ -8,3 +8,7 @@
 .container p {
   color: gray;
 }
+
+.container {
+  color: rgb(14, 9, 18);
+}
