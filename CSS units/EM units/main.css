@@ -1,0 +1,18 @@
+/* em -relative unit
+
+1em -16px default browser style
+1em = base value(16px) * number(1)=16px
+
+*/
+
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
