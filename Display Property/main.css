@@ -1,0 +1,30 @@
+/* this is a block element */
+h1 {
+  background-color: blue;
+}
+
+/* this is a block element */
+div {
+  background-color: blue;
+}
+
+/* this is a block element */
+p {
+  background-color: blue;
+}
+
+/* this is a inline-element */
+span {
+  background-color: blueviolet;
+}
+
+/* inline element */
+img {
+  width: 300px;
+  height: 300px;
+}
+
+/* how to convert block to inline element */
+h1 {
+  display: inline;
+}
