@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  margin: 3rem auto;
+}
+
+.card-1 {
+  border-color: #ff69a6;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background-color: #ff69a6;
+}
+
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 1.5;
+  color: grey;
+}
+
+.btn-pink {
+  background-color: #ffe8f1;
+  color: #ff69a6;
+}
+
+.btn {
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.btn-blue {
+  background-color: #ecf4ff;
+  color: #0000ff;
+}
+
+.card-2 {
+  border-color: #68a3ff;
+}
+
+.card-2 .icon {
+  background-color: #68a3ff;
+}
