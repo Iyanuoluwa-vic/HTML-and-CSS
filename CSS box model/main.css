@@ -1,0 +1,16 @@
+/* padding top: 60px */
+h1 {
+  background-color: red;
+  padding: 60px;
+}
+
+/* padding the content from top, bottom,left anf right */
+p {
+  background-color: blue;
+  border: 2px solid black;
+  padding: 90px 30px 20px 10px;
+
+  margin: 20px;
+  outline: 0.2rem solid red;
+  outline-offset: -10px;
+}
