@@ -1,16 +1,10 @@
-/* this is a block element */
-h1 {
+/* these are the  block element 
+   to center to the center the block we have to use the width and height\
+*/
+.block {
   background-color: blue;
-}
-
-/* this is a block element */
-div {
-  background-color: blue;
-}
-
-/* this is a block element */
-p {
-  background-color: blue;
+  width: 300px;
+  margin: 2rem auto;
 }
 
 /* this is a inline-element */
@@ -24,7 +18,11 @@ img {
   height: 300px;
 }
 
-/* how to convert block to inline element */
-h1 {
+/* how to convert block to inline element
+p {
   display: inline;
+} */
+
+body {
+  text-align: center;
 }
