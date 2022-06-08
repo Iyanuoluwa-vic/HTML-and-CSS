@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*  margin is not respect for tne top and bottom for a specific element if it is an inline element so it need to be changed to a block element 
+
+*/
+ul li a {
+  color: brown;
+  text-decoration: none;
+  background: black;
+  display: block;
+  padding: 5px;
+  margin: 10px 10px;
+}
