@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title-1 {
+  border: 1px solid red;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  margin: 3rem auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+heading {
+  letter-spacing: 2px;
+}
+.title-2 {
+  border: 1px solid blue;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  margin: 3rem auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.icon-1 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(235, 135, 212);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.icon-2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(68, 112, 177);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.button-1 {
+  background-color: rgb(148, 114, 140);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+  border: transparent;
+  text-transform: capitalize;
+}
+
+.button-2 {
+  background-color: rgb(173, 175, 222);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+  border: transparent;
+  text-transform: capitalize;
+}
