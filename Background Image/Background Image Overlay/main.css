@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*there is a background image overlay is a image with linear gradient to it*/
+.big-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/LargeImage.jpg");
+  font-size: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.small-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/smallImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.folder-image {
+  background: url("./images/LargeImage.jpg");
+  font-size: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
