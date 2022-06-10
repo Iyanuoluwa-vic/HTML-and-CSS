@@ -7,9 +7,11 @@ div {
 .big-image {
   background: url("./images/LargeImage.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .small-image {
   background: url("./images/smallImage.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
