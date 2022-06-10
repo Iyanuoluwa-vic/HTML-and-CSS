@@ -1,17 +1,21 @@
+/* background position can be in any position:center,left and right */
+
 div {
   height: 500px;
   color: white;
 }
 
-/* insert an image without repeating it again */
+/*this is centering the center of the image at the center*/
 .big-image {
   background: url("./images/LargeImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .small-image {
   background: url("./images/smallImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
