@@ -1,0 +1,12 @@
+div {
+  height: 500px;
+  color: white;
+}
+
+.big-image {
+  background: url("./images/LargeImage.jpg");
+}
+
+.small-image {
+  background: url("./images/smallImage.jpg");
+}

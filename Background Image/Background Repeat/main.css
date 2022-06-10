@@ -1,0 +1,13 @@
+div {
+  height: 500px;
+  color: white;
+}
+
+/* insert an image as a background of a div */
+.big-image {
+  background: url("./images/LargeImage.jpg");
+}
+
+.small-image {
+  background: url("./images/smallImage.jpg");
+}
