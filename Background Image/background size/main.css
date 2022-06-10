@@ -3,7 +3,7 @@ div {
   color: white;
 }
 
-/* insert an image without repeating it again */
+/* this is to determing how the image should cover the background*/
 .big-image {
   background: url("./images/LargeImage.jpg");
   background-repeat: no-repeat;

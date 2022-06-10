@@ -1,0 +1,18 @@
+div {
+  width: 150px;
+  height: 120px;
+  margin: 20px;
+}
+
+/* CSS linear gradients let you display smooth transitions between two or more specified colors*/
+.one {
+  background: linear-gradient(blue, green);
+}
+
+.two {
+  background: linear-gradient(to top, blue, red);
+}
+
+.three {
+  background: linear-gradient(to left, blue, yellow);
+}
