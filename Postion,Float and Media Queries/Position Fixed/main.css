@@ -1,0 +1,38 @@
+/* Similar to position absolute, an element that has fixed position is taken out of the document flow. The major difference is: elements with position fixed is always positioned relative to the browser window. 
+
+This can be used to create a "floating" element that stays in the same position regardless of scrolling.*/
+
+.nav {
+  background-color: olive;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+div {
+  border: 3px solid red;
+  color: white;
+  background-color: yellow;
+}
+
+.one {
+  background-color: blue;
+  color: white;
+}
+
+.two {
+  background-color: green;
+  color: white;
+}
+
+.special {
+  background-color: bisque;
+  font-size: 20px;
+  color: black;
+}
+
+.empty {
+  background-color: blueviolet;
+  height: 1000px;
+  width: 400px;
+}
