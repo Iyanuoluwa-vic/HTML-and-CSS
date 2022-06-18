@@ -15,6 +15,7 @@ h1 {
   text-align: center;
 }
 
+/* this create the line under the heading */
 .heading-line {
   width: 50px;
   height: 5px;
@@ -23,6 +24,7 @@ h1 {
   margin-bottom: 30px;
 }
 
+/* structure the paragraph */
 .paragraph {
   width: 90vw;
 
