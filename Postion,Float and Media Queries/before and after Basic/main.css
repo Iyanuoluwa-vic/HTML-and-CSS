@@ -1,0 +1,12 @@
+/* THE CSS ::before selector inserts content before a selected element. CSS :after inserts content after a specified element.  */
+p::before {
+  content: "Hello there";
+  font-weight: bold;
+  color: red;
+}
+
+p::after {
+  content: "Hello there";
+  font-weight: bold;
+  color: blue;
+}
