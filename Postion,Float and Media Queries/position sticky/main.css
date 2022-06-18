@@ -1,15 +1,21 @@
+/* sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" ( */
+
+.nav {
+  background-color: olive;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 div {
   border: 3px solid red;
   color: white;
   background-color: yellow;
-  margin-top: 40px;
 }
 
 .one {
   background-color: blue;
   color: white;
-  position: relative;
-  top: 200px;
 }
 
 .two {
@@ -21,4 +27,16 @@ div {
   background-color: bisque;
   font-size: 20px;
   color: black;
+}
+
+.empty {
+  background-color: blueviolet;
+  height: 1000px;
+  width: 400px;
+}
+
+.nasv {
+  background-color: olive;
+  position: sticky;
+  top: 20px;
 }
