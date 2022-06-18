@@ -1,0 +1,36 @@
+/* The z-index property specifies the stack order of an element.
+An element with greater stack order is always in front of an element with a lower stack order. */
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.banner {
+  border: 2px solid red;
+  width: 500px;
+  height: 800px;
+  margin: 20px;
+  position: relative;
+}
+
+.one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.two {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 2;
+}
+
+.three {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+}
