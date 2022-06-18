@@ -1,0 +1,27 @@
+body {
+  background-color: green;
+}
+
+.banner {
+  background-color: palegoldenrod;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: salmon;
+  }
+
+  .banner {
+    background-color: rgb(21, 38, 190);
+  }
+
+  h1 {
+    text-decoration: none;
+  }
+}
