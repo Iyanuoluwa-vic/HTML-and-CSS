@@ -1,0 +1,34 @@
+/* When position absolute is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value. 
+
+If there are no parent elements that has a relative position, then the absolutely positioned element will take its reference from the browser window.*/
+
+div {
+  border: 3px solid red;
+  color: white;
+  background-color: yellow;
+  margin-top: 40px;
+  position: relative;
+}
+
+/* this element is positioned relative to the body because it has not defining rule for the relative position*/
+.one {
+  background-color: blue;
+  color: white;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.two {
+  background-color: green;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.special {
+  background-color: bisque;
+  font-size: 20px;
+  color: black;
+}
