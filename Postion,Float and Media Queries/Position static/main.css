@@ -1,0 +1,19 @@
+div {
+  border: 3px solid red;
+  color: white;
+  background-color: yellow;
+}
+
+.one {
+  background-color: blue;
+  color: white;
+}
+
+.two {
+  background-color: green;
+  color: white;
+}
+
+.special {
+  background-color: bisque;
+}
