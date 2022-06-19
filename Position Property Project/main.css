@@ -53,6 +53,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .hero-center h1 {
@@ -64,6 +66,7 @@ body {
 
 .hero-center p {
   max-width: 35em;
+  margin: 0 auto;
   margin-bottom: 1.5rem;
 }
 
