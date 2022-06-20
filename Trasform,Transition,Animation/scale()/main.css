@@ -1,0 +1,35 @@
+/* The scale() CSS function defines a transformation that resizes an element on the 2D plane. Because the amount of scaling is defined by a vector, it can resize the horizontal and vertical dimensions at different scales.  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mains {
+  height: calc(100vh);
+  width: calc(100vw);
+  position: relative;
+  border: 1px solid red;
+  background: salmon;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: scaleX(2);
+}
+
+.two {
+  background: blue;
+  transform: scaleY(2);
+}
+
+.three {
+  background: green;
+  transform: scale(1, 2);
+}
