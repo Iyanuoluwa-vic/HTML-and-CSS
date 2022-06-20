@@ -1,5 +1,17 @@
 /* The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.mains {
+  height: calc(100vh);
+  width: calc(100vw);
+  position: relative;
+  border: 1px solid red;
+  background: salmon;
+}
 div {
   width: 150px;
   height: 150px;
@@ -8,8 +20,14 @@ div {
 
 .one {
   background: red;
-  transform: translateX(-30px);
+  position: absolute;
+  margin: 0 auto;
+  /*  */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .two {
   background: blue;
   transform: translateY(40px);

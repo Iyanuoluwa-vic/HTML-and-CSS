@@ -29,6 +29,7 @@ body {
 .hero {
   background: rgba(93, 60, 3, 0.5);
   height: calc(100vh - 5rem);
+
   position: relative;
 }
 
