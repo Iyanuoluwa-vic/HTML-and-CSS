@@ -1,0 +1,29 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 5px;
+  transition: all 1s;
+}
+
+div:hover {
+  transform: translateX(20px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
