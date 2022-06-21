@@ -1,0 +1,53 @@
+/* An animation lets an element gradually change from one style to another.
+You can change as many CSS properties you want, as many times as you want. */
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  opacity: 0;
+}
+
+/* the animation is aplied here 
+ animation-fill-mode CSS property sets how a CSS animation applies styles to its target before and after its execution.
+     -forwards:
+        The target will retain the computed values set by the last keyframe encountered during execution.
+
+      -backwards
+        The animation will apply the values defined in the first relevant keyframe as soon as it is applied to the target, and retain this during the animation-delay period
+          */
+.animation {
+  background-color: green;
+  animation: move 10s 1;
+  animation-fill-mode: forwards;
+}
+
+.transition:hover {
+  background-color: bisque;
+  border-radius: 50%;
+  transform: scale(2);
+}
+
+/* Animation properties */
+@keyframes move {
+  0% {
+    transform: translate(20px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(100px);
+    background-color: yellow;
+    opacity: 0.7;
+  }
+  75% {
+    transform: translate(-200px);
+    background-color: red;
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translate(20px);
+    background-color: blue;
+    opacity: 0.9;
+  }
+}
