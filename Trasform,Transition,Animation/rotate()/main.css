@@ -1,0 +1,35 @@
+/* The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. Its result is a <transform-function> data type. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mains {
+  height: calc(100vh);
+  width: calc(100vw);
+  position: relative;
+  border: 1px solid red;
+  background: salmon;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: rotate(380deg);
+}
+
+.two {
+  background: blue;
+  transform: rotate(30deg);
+}
+
+.three {
+  background: green;
+  transform: rotatex(70deg);
+}

@@ -1,0 +1,40 @@
+/* The transition-property CSS property sets the CSS properties to which a transition effect should be applied. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mains {
+  height: calc(100vh);
+  width: calc(100vw);
+  position: relative;
+  border: 1px solid red;
+  background: salmon;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+
+.two {
+  background: blue;
+}
+
+/* this is adding the time to change from a color to another color */
+.three {
+  background: green;
+
+  transition-property: background;
+  transition-duration: 1s;
+}
+
+.three:hover {
+  background-color: brown;
+}
