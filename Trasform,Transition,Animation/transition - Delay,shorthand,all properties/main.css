@@ -28,15 +28,16 @@ div {
 }
 
 /* this is adding the time to change from a color to another color
-  this is adding the time to change from a border radius to another border radius*/
+  this is adding the time to change from a border radius to another border radius
+  this is adding the time to change from a sclale to another scale*/
 .three {
   background: green;
 
-  transition-property: background, border-radius;
-  transition-duration: 1s;
+  transition: background-color 2s 2s, border-radius 2s 2s, transform 2s 2s;
 }
 
 .three:hover {
   background-color: brown;
   border-radius: 50%;
+  transform: scale(2);
 }
