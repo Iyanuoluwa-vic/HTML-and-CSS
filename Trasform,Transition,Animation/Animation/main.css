@@ -1,0 +1,46 @@
+/* An animation lets an element gradually change from one style to another.
+You can change as many CSS properties you want, as many times as you want. */
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+.transition {
+  background-color: red;
+  transition: all 2s linear;
+}
+
+/* the animation is aplied here */
+.animation {
+  background-color: green;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 4;
+}
+
+.transition:hover {
+  background-color: bisque;
+  border-radius: 50%;
+  transform: scale(2);
+}
+
+/* Animation properties */
+@keyframes move {
+  0% {
+    transform: translate(20px);
+  }
+  50% {
+    transform: translate(100px);
+    background-color: yellow;
+  }
+  75% {
+    transform: translate(-200px);
+    background-color: red;
+  }
+
+  100% {
+    transform: translate(20px);
+  }
+}
