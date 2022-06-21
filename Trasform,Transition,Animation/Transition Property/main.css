@@ -27,14 +27,16 @@ div {
   background: blue;
 }
 
-/* this is adding the time to change from a color to another color */
+/* this is adding the time to change from a color to another color
+  this is adding the time to change from a border radius to another  border radius*/
 .three {
   background: green;
 
-  transition-property: background;
+  transition-property: background, border-radius;
   transition-duration: 1s;
 }
 
 .three:hover {
   background-color: brown;
+  border-radius: 50%;
 }
