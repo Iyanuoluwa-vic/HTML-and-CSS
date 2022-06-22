@@ -1,0 +1,6 @@
+/* object-fit prevent the image form being distorted*/
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
