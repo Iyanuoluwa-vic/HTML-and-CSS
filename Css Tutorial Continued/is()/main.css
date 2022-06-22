@@ -1,0 +1,13 @@
+/* calling the h1 from the various elements */
+/* section h1:hover,
+article h1:hover,
+div h1:hover {
+  color: red;
+  transform: translate(100px);
+} */
+
+/* this is a shorthand for the calling the h1 from various element rather than the first one*/
+:is(section, article, div) h1:hover {
+  color: blue;
+  transform: translate(100px);
+}
