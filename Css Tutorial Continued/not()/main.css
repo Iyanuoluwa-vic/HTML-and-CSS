@@ -1,4 +1,4 @@
-/* he :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class. */
+/* he :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.     */
 .special :not(h1) {
   color: red;
 }
