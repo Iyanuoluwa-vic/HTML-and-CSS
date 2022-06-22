@@ -1,0 +1,16 @@
+/* text shadow
+       -x axis,y axis,blur */
+p {
+  text-shadow: 2px 2px 15px #ce5937;
+}
+
+/* box shadow
+       -x axis,y axis,blur */
+div {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.7);
+}
