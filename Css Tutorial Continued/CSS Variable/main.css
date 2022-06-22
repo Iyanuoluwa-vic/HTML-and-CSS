@@ -1,0 +1,34 @@
+/* Declaring a custom property is done using a custom property name that begins with a double hyphen (--), and a property value that can be any valid CSS value.  */
+
+
+/* THIS IS A GLOBAL VARIABLE THAT COULD BE USED ANY ELEMENT  */
+:root {
+    /* THE PROPERTY VALUE GOES ON THE RIGHT*/
+  --primaryColor: red;
+  --secondaryColor: green;
+  --mainTransition: all 5s linear;
+  --familyFont:'Segoe UI';
+}
+
+
+body{
+    font-family: var(--familyFont);
+   
+}
+h1 {
+  color: var(--primaryColor);'
+  transition: var(--mainTransition);
+
+  
+}
+
+p:hover {
+  color: var(--secondaryColor);
+}
+
+/*  THIS IS A LOCAL VARIABLE THAT COULD BE USED ANY ELEMENT */
+div{
+    margin:20px;
+    --primaryPink:pink;
+    color:var(--primaryPink)
+}
