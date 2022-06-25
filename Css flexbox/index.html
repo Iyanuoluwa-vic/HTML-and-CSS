@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
-    <!-- The flex property sets the flexible length on flexible items.  the flex direction specify what direction the flex should be in-->
+
     <style>
       .container {
+        /*  the display flex had a default of row. The flex property sets the flexible length on flexible items.  */
         display: flex;
+
+        /* the flex direction specify what direction the flex should be in- */
         flex-direction: row-reverse;
+
+        /* The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines */
+        flex-wrap: wrap;
+
+        /*  this revers the direction when it wraps*/
+        flex-wrap: wrap-reverse;
       }
     </style>
   </head>
@@ -22,6 +31,16 @@
       <div class="box box3">3</div>
       <div class="box box4">4</div>
       <div class="box box5">5</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
+      <div class="box generic">6</div>
     </div>
   </body>
 </html>
