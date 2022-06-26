@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: red;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 5rem;
+  padding: 0 2rem;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: black;
+}
+
+.container {
+  border: 5px solid red;
+  margin: 3rem;
+}
+.box {
+  width: 125px;
+  height: 125px;
+}
+
+.box1 {
+  background: blue;
+}
+
+.box2 {
+  background: orchid;
+}
+.box3 {
+  background: slateblue;
+}
+.box4 {
+  background: burlywood;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
