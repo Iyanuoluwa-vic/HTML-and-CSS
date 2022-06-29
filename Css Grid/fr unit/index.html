@@ -9,10 +9,12 @@
     <style>
       .container {
         display: grid;
-        /* auto it adjust based on size of screen */
-        grid-template-columns: 200px 7rem auto;
-        /* The grid-template-rows property specifies the number (and the heights) of the rows in a grid layout. */
-        grid-template-rows: 300px 300px;
+        min-height: 100vh;
+
+        /* 1 fr is 50 percent of space */
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-rows: 1fr 1fr 1fr;
       }
     </style>
   </head>
