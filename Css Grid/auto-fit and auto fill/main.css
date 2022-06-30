@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  border: 5px solid black;
+}
+.cell {
+  padding: 2rem;
+  background: #dedede;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid red;
+}
+
+.cell-1 {
+  background-color: blue;
+}
+
+.cell-2 {
+  background-color: green;
+}
+
+.cell-3 {
+  background-color: yellow;
+}
+
+.cell-4 {
+  background-color: slateblue;
+}
+
+.cell-5 {
+  background-color: hotpink;
+}
+
+.cell-6 {
+  background-color: skyblue;
+}
