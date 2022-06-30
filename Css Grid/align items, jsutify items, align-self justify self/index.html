@@ -7,15 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
     <style>
-      /*  align content work if there is space to still do that and also if the grid template row is specified it determines how it would align content */
+      /*  align item controls the alignment of items on the Block Axis within their grid area. */
       .container {
         min-height: 100vh;
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
 
-        grid-template-columns: 100px 100px 200px;
-        grid-template-rows: 100px 100px;
-        align-content: center;
-        align-content: space-between;
+        align-items: center;
+        align-items: flex-end;
+
+        justify-items: center;
+      }
+
+      /* align self just works when the element called.it works within the grid*/
+      .cell-1 {
+        align-self: start;
+        justify-self: end;
       }
     </style>
   </head>
