@@ -20,6 +20,7 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .small-image {
@@ -31,9 +32,6 @@ div {
 }
 
 .folder-image {
-  background: url("./images/LargeImage.jpg");
+  background: url("./images/LargeImage.jpg") center/cover no-repeat;
   font-size: 90px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
