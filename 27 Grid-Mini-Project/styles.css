@@ -1,0 +1,448 @@
+/* 
+=====================
+Variables
+=====================
+*/
+
+:root {
+  --primaryColor: #f15025;
+  --mainBlack: #222;
+  --mainWhite: #fff;
+  --darkGray: #afafaf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.2re;
+}
+
+/* 
+=====================
+Global styles   
+=====================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.7rem;
+  line-height: 2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+  border-radius: 0.5rem;
+  margin: 3rem;
+  transition: var(--mainTransition);
+}
+
+.btn:hover {
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+=====================
+Main Navbar
+=====================
+*/
+
+.main-navbar {
+  background: var(--darkGray);
+  padding: 0 2rem;
+}
+
+.main-navbar li {
+  list-style: none;
+}
+
+.main-navbar a {
+  text-transform: capitalize;
+  padding: 1rem 0;
+  display: block;
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+  color: var(--primaryColor);
+}
+
+.main-navbar a:hover {
+  color: var(--mainBlack);
+}
+
+@media screen and (min-width: 992px) {
+  .main-navbar ul {
+    max-width: 1170px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+  }
+
+  .main-navbar a {
+    text-align: center;
+  }
+}
+
+/* 
+=====================
+Hero
+=====================
+*/
+
+.hero-header {
+  min-height: 100vh;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner {
+  /* background-color: blue; */
+  padding: 0 1rem;
+}
+
+.hero-banner {
+  max-width: 90%;
+}
+
+.hero-banner h1 {
+  /* border: 1px solid red; */
+}
+.hero-banner p {
+  width: 80%;
+  /* border: 1px solid red; */
+  max-width: 560px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .hero-banner {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 78px) {
+  .hero-header {
+    background: linear-gradient(
+        to bottom,
+        rgba(240, 183, 161, 0.79) 0%,
+        rgba(117, 34, 1, 0.77) 50%,
+        rgba(25, 10, 25, 0.74) 100%
+      ),
+      url(./images/size-image-2.jpeg) center/cover fixed no-repeat;
+  }
+}
+
+/* 
+=====================
+Cards 
+=====================
+*/
+.title {
+  text-align: center;
+}
+
+.cards {
+  padding: 4rem 0;
+}
+
+.cards-center {
+  width: 80vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+}
+
+.card {
+  border: 1px solid var(--darkGray);
+  margin-bottom: 3rem;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-footer {
+  background-color: var(--darkGray);
+  display: grid;
+  padding: 0.5rem 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.card-footer span {
+  color: var(--primaryColor);
+}
+
+@media screen and (min-width: 768px) {
+  .cards-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .cards-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* another way to create a grid
+   we know the max width of the screen is 1170px
+      and we wanted 2rem of space between each card
+      so we can use the following formula:
+     [ max-width / (number of gap cards between each card * (16px*2rem of space between each card))]/numberOfCards
+
+
+     1170px / ( 2 * (16px*2rem)) / 3 = 368px
+*/
+.cards-center {
+  display: grid;
+  grid-template-columns: repeat(autofill, 368.6px);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* 
+=====================
+Tiles
+=====================
+*/
+
+.tiles-center {
+  max-width: 80vw;
+  margin: 2rem auto;
+}
+
+.image {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: repeat(5, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tiles-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .tiles-center {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas:
+      "a a a b"
+      "a a a c"
+      "d d d d"
+      "e f f f"
+      "e g h i";
+  }
+  .tiles .image {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .image-1 {
+    grid-area: a;
+  }
+  .image-2 {
+    grid-area: b;
+  }
+  .image-3 {
+    grid-area: c;
+  }
+  .image-4 {
+    grid-area: d;
+  }
+  .image-5 {
+    grid-area: e;
+  }
+  .image-6 {
+    grid-area: f;
+  }
+  .image-7 {
+    grid-area: g;
+  }
+  .image-8 {
+    grid-area: h;
+  }
+  .image-9 {
+    grid-area: i;
+  }
+}
+
+/* 
+=====================
+layout
+=====================
+*/
+.layout-easy h1 {
+  margin-bottom: 0rem;
+  color: #fff;
+}
+.layout-easy .layout-titles {
+  background: var(--primaryColor);
+  text-align: center;
+}
+
+.layout-nav li {
+  padding: 1rem 1rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.layout-nav {
+  background: var(--darkGray);
+}
+
+.layout-section {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.layout-aside {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: var(--primaryColor);
+  padding: 1rem;
+  justify-items: center;
+}
+
+.layout-footer p {
+  padding: 0.2rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+
+  text-align: center;
+}
+
+.layout-easy {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto auto;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .layout-easy {
+    display: grid;
+    grid-template-columns: [start] 200px [col-1-end] 1fr [col-2-end] 200px [end];
+    grid-template-rows: [start] auto [row-1-end] 1fr [row-2-end] auto [end];
+  }
+
+  .layout-titles {
+    grid-column: start / end;
+    grid-row: start / row-1-end;
+  }
+
+  .layout-nav {
+    grid-column: start/ col-1-end;
+    grid-row: row-1-end/ row-2-end;
+  }
+
+  .layout-section {
+    grid-column: col-1-end/ col-2-end;
+    grid-row: row-1-end/ row-2-end;
+  }
+
+  .layout-aside {
+    grid-column: col-2-end/ end;
+    grid-row: row-1-end/ row-2-end;
+  }
+
+  .layout-footer {
+    grid-column: start/ end;
+    grid-row: row-2-end/ end;
+  }
+
+  .layout-nav ul {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    align-items: center;
+    min-height: 100%;
+  }
+
+  .layout-aside {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    min-height: 100%;
+    align-items: center;
+    background-color: grey;
+  }
+}

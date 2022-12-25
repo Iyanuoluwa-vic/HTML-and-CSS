@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*variable stylesheet */
+:root {
+  --primary: #645cff;
+  --primary-dark: #3c3799;
+  --grey-light: #f1f5f9;
+  --grey: #64748b;
+  --gray-dark: #0f172a;
+  --fluid-width: 90vw;
+  --max-width: 1170px;
+  --black: #222;
+  --white: #fff;
+  --letter-spacing: 2px;
+  --border-radius: 0.15rem;
+  --shadow-light: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --shadow-dark: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --transition: 0.3s ease-in-out all;
+}
+
+/* Global styles */
+body {
+  background-color: var(--grey-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: --gray-dark;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.blogs {
+  padding: 5rem 0;
+}
+
+.blog-center {
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.blog {
+  background-color: var(--white);
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border-radius: var(--border-radius);
+}
+
+.blog:hover {
+  box-shadow: var(--shadow-dark);
+}
+
+span {
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+h2 {
+  text-transform: capitalize;
+  color: var(--grey-dark);
+}
+
+p {
+  color: var(--grey);
+}
+
+a {
+  text-transform: capitalize;
+  color: var(--primary-dark);
+}
