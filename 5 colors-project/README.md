@@ -24,3 +24,5 @@
 - select all containers and add background: #fff
 - select all h3 and set color: #645cff
 - select special container background: rgba(0, 0, 0, 0.9)
+
+![Alt text](Screenshot%202023-01-03%20at%2013-37-30%20Final%20Colors.png)
