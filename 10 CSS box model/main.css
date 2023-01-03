@@ -1,7 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 /* padding top: 60px */
 h1 {
   background-color: red;
-  padding: 60px;
 }
 
 /* padding the content from top, bottom,left anf right */
