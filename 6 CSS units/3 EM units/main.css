@@ -1,4 +1,4 @@
-/* em -relative unit
+/* em -relative unit, depend on the parent
 
 1em -16px default browser style
 1em = base value(16px) * number(1)=16px
