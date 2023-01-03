@@ -4,3 +4,9 @@
   height: 300px;
   background-color: blue;
 }
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
