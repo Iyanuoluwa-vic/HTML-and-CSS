@@ -6,9 +6,13 @@ div {
 }
 
 .big-image {
-  background: url("./images/LargeImage.jpg");
+  background: url("./big.jpeg");
 }
 
 .small-image {
-  background: url("./images/smallImage.jpg");
+  background: url("./small.jpeg");
+}
+
+.folder-image {
+  background: url("./images/folder-img.jpeg");
 }
