@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,7 +9,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .section {
-  padding: 50px;
+  padding: 50px 0;
   background-color: white;
 }
 
@@ -25,8 +27,9 @@ h1 {
 }
 
 /* structure the paragraph */
-.paragraph {
+.section-center {
   width: 90vw;
+  background-color: red;
 
   margin: 0 auto;
   max-width: 1170px;
