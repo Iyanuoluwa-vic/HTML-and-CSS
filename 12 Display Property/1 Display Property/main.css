@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* these are the  block element 
    to center to the center the block we have to use the width and height\
 */
@@ -23,6 +29,10 @@ p {
   display: inline;
 } */
 
-body {
-  text-align: center;
+/* body {
+  text-align: right;
+} */
+
+span {
+  display: inline-block;
 }
