@@ -1,4 +1,5 @@
 /* static is the default value that an element will have. This means if you don't declare position for an element in CSS, it will automatically be set to static . It's important to note that having a static position is the same as not setting the position property at all. */
+
 div {
   border: 3px solid red;
   color: white;
