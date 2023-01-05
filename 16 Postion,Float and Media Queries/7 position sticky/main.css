@@ -1,4 +1,4 @@
-/* sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" ( */
+/* position: sticky - toogle between relative and fixed once the positon is met in the viewport  - then it sticks" ( */
 
 .nav {
   background-color: olive;
