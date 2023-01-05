@@ -2,6 +2,9 @@
 
 If there are no parent elements that has a relative position, then the absolutely positioned element will take its reference from the browser window.*/
 
+* {
+  margin: 0;
+}
 div {
   border: 3px solid red;
   color: white;
@@ -23,7 +26,7 @@ div {
   background-color: green;
   color: white;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
 }
 
