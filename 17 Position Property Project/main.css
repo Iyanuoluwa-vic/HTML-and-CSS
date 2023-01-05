@@ -46,7 +46,7 @@ body {
 }
 
 .hero-center {
-  min-width: 90vw;
+  width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
   padding: 5rem 0;
